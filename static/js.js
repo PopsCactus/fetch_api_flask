@@ -3,7 +3,8 @@ var entry = {
     '2': 'batard'
 };
 
-function enculer() {
+
+window.onload = function () { 
     setInterval(async function(){
         fetch('/api', {
             method: 'POST',
@@ -24,5 +25,6 @@ function enculer() {
             })
         })
     }, 1000);
+    
     
 }
