@@ -23,6 +23,6 @@ function enculer() {
                 document.getElementById('info').innerText = data.Message
             })
         })
-    }, 3000);
+    }, 1000);
     
 }
