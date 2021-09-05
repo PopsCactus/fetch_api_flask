@@ -20,7 +20,7 @@ function enculer() {
         
             reponse.json().then(function (data) {
                 console.log(data.Message)
-                document.getElementById('info').innerText = data
+                document.getElementById('info').innerText = data.Message
             })
         })
     }, 3000);
